@@ -24,7 +24,7 @@ class DaemonDemo extends Thread {
             for (int i = 0; i < count; i++) {
                 System.out.print(threads[i].getName() + ", ");
             }
-            System.out.println();
+            System.out.println("Line");
             try {
                 Thread.sleep(300);
             } catch (InterruptedException e) {
